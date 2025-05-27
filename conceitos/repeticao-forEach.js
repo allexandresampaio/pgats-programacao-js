@@ -22,7 +22,7 @@ const listaAlunosENotas = [
     }, 
      {
         Nome: 'Maia',
-        Nota: 7
+        Nota: 6
     }, 
      {
         Nome: 'Joao',
@@ -30,6 +30,14 @@ const listaAlunosENotas = [
     }
 ]
 
+listaAlunosENotas.push({ //add ao fim da lista
+    Nome: 'Allexandre',
+    Nota: 10
+})
+
 listaAlunosENotas.forEach(aluno =>{
     console.log (`O aluno ${aluno.Nome} obteve a nota ${aluno.Nota}.`)
+    if (aluno.Nota < 7){
+        console.log (`O aluno ${aluno.Nome} precisa fazer trabalho extra.`)
+    }
 })
