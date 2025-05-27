@@ -1,21 +1,13 @@
 let listaBrinquedosPet = [
-    {
-        Nome: 'Bola'
-    }, 
-     {
-        Nome: 'Osso'
-    }, 
-     {
-        Nome: 'Corda'
-    }, 
-     {
-        Nome: 'Sino'
-    }
+    '🎾 Bola',
+    '🦴 Osso',
+    '🪢 Corda',
+    '🔔 Sino'
 ]
 
 function entregarBrinquedosAoPet(listaDeBrinquedos){
     listaDeBrinquedos.forEach(itemDaLista => {
-        console.log (`Entregando o brinquedo ${itemDaLista.Nome} para Romeu.`)
+        console.log (`Entregando o brinquedo ${itemDaLista} para Romeu.`)
     });
 }
 
