@@ -1,8 +1,3 @@
-const petsLista = [
-    `🐩 Pantera`,
-    `🦮 Luna`,
-    `🐕 Thor`
-]
 
 function entregarPetiscosPet (listaPets){
     listaPets.forEach(petDaLista => {
@@ -11,6 +6,5 @@ function entregarPetiscosPet (listaPets){
 }
 
 export {
-    entregarPetiscosPet,
-    petsLista
+    entregarPetiscosPet
 }
