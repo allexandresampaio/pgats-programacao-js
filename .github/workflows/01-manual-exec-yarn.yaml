@@ -32,8 +32,8 @@ jobs:
       - name: Instalando dependências
         run: yarn
 
-      # executor de testes e2e
-      - name: Executando testes e2e
+      # executor de testes unitários
+      - name: Executando testes unitários
         run: yarn test
 
     
