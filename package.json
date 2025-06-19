@@ -8,7 +8,7 @@
   "main": "index.js",
   "type": "module",
   "devDependencies": {
-    "mocha": "^11.5.0"
+    "mocha": "^11.7.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
