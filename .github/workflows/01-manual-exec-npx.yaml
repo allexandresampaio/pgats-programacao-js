@@ -30,6 +30,6 @@ jobs:
 
       # executor de testes unitários
       - name: Executando testes unitários
-        run:  npx mocha testes/trabalho-final.js  
+        run:  npx mocha test/trabalho-final.js  
 
     
